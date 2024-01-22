@@ -105,7 +105,10 @@
       <div class="tooltiptext"> This content was paid for by an advertiser and produced by Create, the branded content studio of CNN International Commercial. The news and editorial staff of CNN had no role in its creation. </div>
     </header>
     <main class="wrapper" data-scroll-container>
-      <section class="quiz h-banners absolute left-0 top-0 w-full z-10 h-[100vh] xs:h-[calc(var(--vh,1vh)*100)] overflow-hidden is-hidden-component" data-banners>
+      <!-- <section
+	class="quiz h-banners absolute left-0 top-0 w-full z-10 h-[100vh] xs:h-[calc(var(--vh,1vh)*100)] overflow-hidden is-hidden-component"
+	data-banners> -->
+      <section class="quiz h-banners absolute left-0 top-0 w-full z-10 h-full overflow-hidden is-hidden-component" data-banners>
         <button class="w-[204px] h-[48px] absolute top-[100px] right-[35px] back-btn xl:top-[74px] sm:w-[180px] sm:h-[40px] xl:right-[20px] xs:right-[15px]" type="button">
           <div class="back-btn_text">BACK TO FILM</div>
           <div class="back-btn_icon">
@@ -187,15 +190,15 @@
             </div>
           </div>
         </div>
-        <div class="h-banner-map absolute inset-0 z-[1] bg-egg-white pt-[60px] overflow-hidden" data-banners="mapContainer">
+        <div class="h-banner-map absolute inset-0 w-full h-full z-[1] bg-egg-white pt-[60px] overflow-hidden" data-banners="mapContainer">
           <!-- <div class="h-banner-map z-[1] bg-egg-white pt-[60px]"> -->
           <div class="z-[2] absolute inset-[95px_538px_35px_35px] flex flex-col items-center justify-end p-55 pointer-events-none xl:inset-[95px_400px_35px_35px] xl:p-30 sm:inset-[60px_350px_35px_0] xs:inset-[0_0_0_0]">
             <button class="btn btn-st h-[67px] min-w-[230px] opacity-0 translate-y-[100%] transition-duration-[1s] pointer-events-auto" data-banners="btnNext"> NEXT </button>
           </div>
           <div class="py-35 pl-35 h-full xl:h-[calc((var(--vh,1vh)*100)-60px)] xs:h-full sm:pt-0 sm:pb-35 sm:pl-0 xs:pb-0">
             <div class="w-full h-full xs:overflow-auto xs:px-15" data-banners="mapMobileScroll">
-              <div class="w-full h-full xs:min-h-full xs:h-[2000px] xs:pb-[30px]">
-                <div class="h-full relative xs:h-[calc((var(--vh,1vh)*70)-60px+64px-90px)] xs:h-[60vh] xs:pt-[64px]">
+              <div class="w-full relative h-full xs:min-h-full xs:h-auto xs:pb-[30px]">
+                <div class="h-full xs:h-[calc((var(--vh,1vh)*70)-60px+64px-90px)] xs:h-[60vh] xs:pt-[64px]">
                   <div class="h-banner-map_desc text-dark-brown absolute bottom-[-26px] left-0 right-[538px] xl:right-[400px] sm:right-[350px] sm:pl-20 xs:right-0 xs:hidden"> All menus are available on select routes and subject to change. </div>
                   <div class="h-banner-map_shadow border-full-gold h-full is-cover relative z-[1]" data-banners="mapBox">
                     <div class="z-[1] absolute inset-[0_538px_0_0] flex flex-col items-center justify-center text-white txt-lg p-20 cursor-default opacity-0 text-center xl:inset-[0_400px_0_0] sm:inset-[0_350px_0_0] xs:inset-[0]" data-banners="mapOverlayText"> Click on the map to match the dish to its country of origin </div>
